@@ -13,8 +13,8 @@ ACHTUNG:
 5. Den heruntergeladenen Ordner "Abgabe - Final - Notizanwendung" in VS Code öffnen
 6. Im Terminal nach cd backend navigieren und dort "npm install" eingeben und ausführen
 7. Im Terminal nach cd notizapp und dort "npm install"
-8. Im Terminal noch "npm install -g @vue/cli" eingeben
-9. Im Terminal Backend starten: cd backend dann node server.js
+8. Im Terminal in /notizapp noch "npm install -g @vue/cli" eingeben und ausführen
+9. Im Terminal Backend starten: cd backend dann node server.js eingeben und ausführen
 10. Im Terminal Frontend starten: cd notizapp dann npm run serve
 11. Nun läuft das Frontend und Backend
 12. Nun auf den localhost klicken und die Notizanwendung sofort austesten!
@@ -22,5 +22,5 @@ ACHTUNG:
 ***Datenbank aufrufen:***
 1. http://localhost:5984/_utils/
 2. Dort mit entsprechenden Anmeldedaten anmelden
-3. "create database" und z.B. mit "notes" benamsen
+3. "create database" und mit "notes" benennen (sonst bei anderer Benennung in server.js Zeile 4 entsprechend ändern)
    
